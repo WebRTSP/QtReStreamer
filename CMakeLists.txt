@@ -9,6 +9,7 @@ set(WS_SERVER_SUPPORT OFF)
 set(WS_CLIENT_SUPPORT OFF)
 set(ONVIF_SUPPORT OFF)
 set(QT_SERVER_SUPPORT ON)
+set(H265_SUPPORT ON CACHE BOOL "h265 can be required" FORCE)
 add_subdirectory(WebRTSP)
 
 find_package(Qt6 REQUIRED COMPONENTS Core)
